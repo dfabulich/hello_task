@@ -13,9 +13,6 @@
 
 PYTHON=${PYTHON:-$(which python2.7)}
 
-PYTHONPATH=plugins:${PYTHONPATH}
-export PYTHONPATH
-
 PANTS_HOME="${PANTS_HOME:-${HOME}/.cache/pants/setup}"
 PANTS_BOOTSTRAP="${PANTS_HOME}/bootstrap"
 
