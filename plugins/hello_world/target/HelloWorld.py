@@ -1,4 +1,4 @@
-import pants.task.task.Task
+from pants.task.task import Task
 
 class Hello_World(Task):
 	def execute(self):
